@@ -1,0 +1,17 @@
+
+
+-----
+# async in colab
+!pip install nest-asyncio
+import nest_asyncio
+nest_asyncio.apply()
+---
+
+pip install ta-lib
+-----
+
+pip install websocket-client
+-----
+
+
+
