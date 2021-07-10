@@ -1,5 +1,20 @@
 
+-----
+# this async works better then the bellow one
 
+import asyncio
+asyncio.get_event_loop()
+
+async def main():
+  await socket.__aenter__()
+  msg = await socket.recv()
+  print(msg)
+
+if __name__ == "__main__":
+
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(main())
+    
 -----
 # async in colab
 !pip install nest-asyncio
