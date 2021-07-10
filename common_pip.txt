@@ -30,4 +30,6 @@ pip install websocket-client
 -----
 
 
-
+----
+# XFCE 
+sudo apt-get install xubuntu-desktop
