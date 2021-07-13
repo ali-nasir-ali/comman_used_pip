@@ -28,7 +28,9 @@ pip install ta-lib
 
 pip install websocket-client
 -----
-
+# make shure the pip is up to date 
+#   pip install --upgrade pip
+pip install ccxt
 
 ----
 # XFCE 
